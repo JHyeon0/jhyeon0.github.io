@@ -4,7 +4,7 @@ excerpt: "자바스크립트 변수와 데이터 타입. 원시 값과 참조 �
 categories:
   - javascript
 tags:
-  - CS
+  - javascript
 ---
 
 ## 자바스크립트
