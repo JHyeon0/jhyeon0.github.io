@@ -1,8 +1,6 @@
 ---
 title:  "컴퓨터의 언어 : 비트가 저장되기까지"
 excerpt: "컴퓨터 구조와 프로그래밍"
-toc: true
-toc_sticky: true
 categories:
   - computer-structure
 tags:
