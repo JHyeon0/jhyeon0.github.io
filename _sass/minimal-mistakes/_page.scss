@@ -71,6 +71,7 @@ body {
 .page__title {
   margin-top: 0;
   line-height: 1;
+  font-size: $h-size-1;
 
   a {
     color: $text-color;
@@ -88,8 +89,15 @@ body {
 }
 
 .page__content {
+  // custom : image align center
+  p img{
+    display: block;
+    margin: auto;
+  }
+
   h2 {
     padding-bottom: 0.5em;
+    margin: 1.5em 0 0.75em;
     border-bottom: 1px solid $border-color;
   }
 

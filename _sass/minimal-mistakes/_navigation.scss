@@ -120,17 +120,27 @@
   /* next/previous buttons */
   &--pager {
     display: block;
-    padding: 1em 2em;
+    padding: 0.5em 1em;
     float: left;
     width: 50%;
     font-family: $sans-serif;
     font-size: $type-size-5;
-    font-weight: bold;
+    font-weight: 600;
     text-align: center;
     text-decoration: none;
     color: $muted-text-color;
     border: 1px solid mix(#000, $border-color, 25%);
     border-radius: $border-radius;
+    
+    // customized_style : navigation 에 제목 추가 및 스타일 수정
+    .title {
+      display: block;
+      font-size: $type-size-6;
+      font-weight: 400;
+      text-overflow: ellipsis;
+      overflow: hidden; 
+      white-space: nowrap;
+    }
 
     &:hover {
       @include yiq-contrasted($muted-text-color);

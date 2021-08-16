@@ -1,12 +1,24 @@
 # main links
 main:
-  - title: "About"
-    url: https://jhyeon0.github.io/about
   - title: "Article"
-    url: https://jhyeon0.github.io/article
-  - title: "Devlog"
-    url: https://jhyeon0.github.io/devlog
-  # - title: "Sample Collections"
-  #   url: /collection-archive/
-  # - title: "Sitemap"
-  #   url: /sitemap/
+    url: /article
+  - title: "Category"
+    url: /categories
+  - title: "Tags"
+    url: /tags
+
+docs:
+  - title: Home
+    url: /
+    children:
+      - title: "Article"
+        url: /article/
+
+  - title: Devstudy
+    children:
+      - title: "Computer Structure"
+        url: /categories/computer-structure/
+      - title : "JavaScript"
+        url: /categories/javascript
+
+  - title: Devlog
