@@ -20,7 +20,7 @@ title                    : "jhyeon"
 title_separator          : "-"
 subtitle                 : # site tagline that appears below site title in masthead
 name                     : "jhyeon 기록"
-description              : "교육 산업에 관심이 많은 개발자입니다." # 메타 태그 설명에 추가 SEO 관련
+description              : "도전을 즐기는 개발자입니다." # 메타 태그 설명에 추가 SEO 관련
 url                      : # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
 baseurl                  : # the subpath of your site, e.g. "/blog"
 repository               : # GitHub username/repo-name e.g. "mmistakes/minimal-mistakes"
